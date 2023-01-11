@@ -1,0 +1,10 @@
+{
+//   "files": ["src/index.ts"],
+  "include": ["tsc/src/**/*.ts"],
+  "compilerOptions": {
+   "outDir": "tsc/src/dist",
+   "allowJs": true,
+   "module": "ESNext",
+   "target": "ES3" 
+  }  
+}
