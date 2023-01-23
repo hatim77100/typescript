@@ -103,12 +103,12 @@ let func1 = (...numbers: number[]) => {
 };
 
 //La surcharge de fonction
-function maFonction(param: string): string;
-function maFonction(param: number): number;
-function maFonction(param: boolean): boolean;
-function maFonction(param: any): any {
-  return param;
-}
+// function maFonction(param: string): string;
+// function maFonction(param: number): number;
+// function maFonction(param: boolean): boolean;
+// function maFonction(param: any): any {
+//   return param;
+// }
 
 maFonction('test').toLocaleLowerCase();
 maFonction(42).toFixed();

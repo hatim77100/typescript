@@ -3,7 +3,7 @@
 interface User {
 readonly username: string;
 age: number;
-isDrinking: boolean;
+isDrinking?: boolean;
 isHealthy?: boolean;
 isSmoking?: boolean;
 [propName: string]: any;
@@ -20,7 +20,8 @@ const user: User = {
 const newUser: User = {
     username: 'Paul',
     age:50,
-    isOnline: true
+    isOnline: true,
+    isOffline: false
 };
 
 function greet(user: { username: string }): void {
